@@ -8,6 +8,5 @@ function myFunction(){
 	weekday[4]="周四";
 	weekday[5]="周五";
 	weekday[6]="周六";
-	var x = document.getElementById("demo");
-	x.innerHTML=weekday[d.getDay()];
+	return weekday[d.getDay()];
 }
