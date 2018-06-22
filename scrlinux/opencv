@@ -1,1 +1,3 @@
-apt
+
+echo y| apt-get install libopencv-dev  
+echo y| apt-get install python-opencv  
