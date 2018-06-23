@@ -1,0 +1,6 @@
+echo "# pyos" >> README.md
+git init
+git add 'ls'
+git commit -m "update"
+git remote add origin https://github.com/calvinweb/pyos.git
+git push -u origin master
