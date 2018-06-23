@@ -1,1 +1,1 @@
- h
+ document.getElementById(a).innerHTML=b;
