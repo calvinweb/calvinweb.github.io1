@@ -1,3 +1,11 @@
+$(document).on("pageinit","#pageone",function(){
+  $("body").on("swipe",function(){
+      mask.fadeIn();
+    slidebar.animate({
+      'right': 0
+    });
+  });                       
+});
 ;$(function () {
   'use strict';
 
@@ -9,7 +17,7 @@
 
   /*侧栏鼠标点击事件*/
   slidebar_trigger.on('click', function () {
-    mask.fadeIn();
+   mask.fadeIn();
     slidebar.animate({
       'right': 0
     });
