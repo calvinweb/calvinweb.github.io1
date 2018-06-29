@@ -1,4 +1,4 @@
-function ajax(y)
+function ajax(u)
 {
 	var xmlhttp;
 	if (window.XMLHttpRequest)
@@ -15,7 +15,7 @@ function ajax(y)
 	{
 		if (xmlhttp.readyState==4 && xmlhttp.status==200)
 		{
-			document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
+			return xmlhttp.responseText;
 		}
 	}
 	xmlhttp.open("GET",u
