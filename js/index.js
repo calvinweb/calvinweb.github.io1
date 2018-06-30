@@ -1,11 +1,10 @@
+
 $(document).on("pageinit","#pageone",function(){
-  $("body").on("swipe",function(){
-      mask.fadeIn();
-    slidebar.animate({
-      'right': 0
-    });
+  $("body").on("swipeleft",function(){
+    alert("您向左滑动！");
   });                       
-});
+})
+
 ;$(function () {
   'use strict';
 
