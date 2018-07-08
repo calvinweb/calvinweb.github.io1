@@ -11,7 +11,7 @@
   <button onclick="playPause()">播放/暂停</button> 
   <button onclick="makeBig()">放大</button>
   <button onclick="makeSmall()">缩小</button>
-  <button onclick="makeNormal()">普通</button>
+  <button onclick="makeNormal()">ok</button>
   <br> 
   <video id="video1" width="420">
     <source src="mov_bbb.mp4" type="video/mp4">
@@ -43,7 +43,8 @@ function playPause()
 
 	function makeNormal()
 { 
-	myVideo.width=420; 
+	a=range1.value；
+   alert(a);
 } 
 </script> 
 
