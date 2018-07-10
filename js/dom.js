@@ -1,1 +1,2 @@
- document.getElementById(a).innerHTML=b;
+function note(txt){
+document.getElementById("note").innerHTML=txt;}
