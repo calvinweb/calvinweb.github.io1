@@ -3,9 +3,8 @@ $(document).on("pageinit","#pageone",function(){
   $("body").on("swipeleft",function(){
     alert("您向左滑动！");
   });                       
-})
-
-;$(function () {
+});
+$(function () {
   'use strict';
 
   var slidebar = $(".slidebar"),
